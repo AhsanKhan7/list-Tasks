@@ -1,0 +1,25 @@
+.app {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+
+  .data {
+    width: 30%;
+    margin: 0 auto;
+
+    .content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      h2 {
+        font-family: sans-serif;
+      }
+
+      button {
+        margin-left: 50px;
+      }
+    }
+  }
+}
